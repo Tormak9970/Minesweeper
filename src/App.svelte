@@ -62,6 +62,7 @@
             <div>Click to Start</div>
         </div>
     </div>
+	<div class="rights">© Travis Lane 2022</div>
 </div>
 
 <style>
@@ -75,6 +76,8 @@
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
+
+        position: relative;
     }
 
     .game-container {
@@ -114,9 +117,7 @@
         justify-content: flex-start;
     }
 
-    .modalH1 {
-        margin: 5px 0px;
-    }
+    .modalH1 { margin: 5px 0px; }
     .newGameButton {
         height: 30px;
         width: 100px;
@@ -160,4 +161,15 @@
         border-radius: 10px;
     }
     .btn:hover { background-color: var(--bud-green__hover); }
+
+    .rights {
+		position: absolute;
+		right: 7px;
+		bottom: 7px;
+
+		color: #e7e7e7;
+		font-size: 10px;
+		
+		opacity: 0.4;
+	}
 </style>
